@@ -1,5 +1,8 @@
 [
   {
-    "value": "2"
+  value: function({
+    _req
+  }) {
+    return _req.query.value
   }
 ]
