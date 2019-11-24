@@ -1,0 +1,43 @@
+<!doctype html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+          content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>LittleColorBar</title>
+    <style>
+        ul{
+            margin:10px;
+            padding:0;
+            list-style: none;
+        }
+        li{
+            line-height: 21px;
+            color: #666;
+            position: relative;
+        }
+        li:before{
+            position: absolute;
+            width:3px;
+            height:16px;
+            content: '';
+            top:3px;
+            left:-10px;
+            background-color: blue;
+        }
+    </style>
+</head>
+<body>
+<div id="test">
+    <ul>
+        <li>这里是文字</li>
+        <li>这里是文字</li>
+        <li>这里是文字</li>
+        <li>这里是文字</li>
+        <li>这里是文字</li>
+    </ul>
+</div>
+
+</body>
+</html>

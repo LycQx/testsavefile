@@ -1,0 +1,99 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+    <meta charset="UTF-8" />
+    <title>Document</title>
+    <script src="jquery.min.js" type="text/javascript" charset="utf-8"></script>
+    <style>
+        .File-Box{
+            position: relative;
+            width:150px;
+            height:150px;
+            margin: 100px auto;  /* 上下外边距是100px，左右外边距自动均分 -->*/
+        }
+        .File-Box input[type=file]{
+            cursor:pointer;  /* 使得鼠标移到file上面变成一只点击的手 */
+            width:100%;
+            height:100%;
+            z-index: 2;  /* 层叠等级，数字越大，越靠顶部 */
+            opacity:0;  /* 透明度，将真正的选择文件按钮设置为透明的 */
+            position: absolute;  /* 绝对定位使得file可以和我们所要展示的div处在同一位置只不过一个在高点，一个低点 */
+        }
+        .Show-Box{
+            display: block;
+            z-index: 1;
+            width:100%;
+            height:100%;
+            position: absolute;
+            background:#dfdfdf;
+            border:1px solid #cccccc;
+        }
+        .Show-Box div{
+            font-size: 80px;
+            color: #999999;
+            text-align: center;
+        }
+        .Show-Box span{
+            display: block;
+            font-size: 14px;
+            text-align: center;
+            color: #666666;
+            width:100%;
+            line-height: 15px;
+        }
+        .File-Box:hover .Show-Box div,.File-Box:hover .Show-Box span{
+            color:#90c0f5;  /* 鼠标悬停在按钮上时，div和span元素改变颜色 */
+        }
+        .btn{
+            width: 50px;
+            height: 30px;
+            margin: 10px auto;
+        }
+        .btn button{
+            width: 100%;
+            height: 100%;
+        }
+    </style>
+</head>
+<body>
+<div class="File-Box">
+    <input type="file" name="file" multiple id="fileId"/>
+    <div class="Show-Box">
+        <div>+</div>
+        <span>选择文件</span>
+    </div>
+</div>
+<div class="btn">
+    <button type="submit" name="btnName" value="提交" id="btnId" onclick="check()">提交</button>
+</div>
+<div class="contain" id="contain">
+    内容将在此处显示
+</div>
+<script type="text/javascript">
+    function check() {
+        var objFile = document.getElementById("fileId");
+        if(objFile.value == "") {
+            alert("不能空")
+        }
+        var files = $('#fileId').prop('files'); //获取到文件列表
+        console.log(files.length);
+        if(files.length == 0) {
+            alert('请选择文件');
+        } else {
+            for(var i = 0; f = files[i]; i++) {
+                var reader = new FileReader(); //新建一个FileReader
+                reader.readAsText(files[i], "UTF-8"); //读取文件
+                reader.onload = function(evt) { //读取完文件之后会回来这里
+                    var fileString = evt.target.result; // 读取文件内容
+                    console.log(fileString)
+                }
+            }
+        }
+    }
+    $.get("text.txt",function(data, status){
+        $(".contain").text(data);
+        alert(status);
+    });
+</script>
+</body>
+</html>

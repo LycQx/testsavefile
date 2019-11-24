@@ -1,0 +1,424 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>易烊千玺的分析汇总</title>
+    <script src="echarts.min.js"></script>
+    <script src="jquery.js"></script>
+</head>
+<body style="background-image: url(秋粮02.jpg);background-size: 20%">
+    <div id="all" style="width:800px;margin: 0 auto;background-color: white">
+        <div id="ad">
+            <span style="border-left:3px solid orangered;color: orangered;margin-left: 5px;padding-left: 5px;font-size: 19px">商业价值</span>
+            <div>
+                <div style="width: 290px;height:500px;float: left">
+                    <p style="margin-left: 10px">易烊千玺2019年7月商业价值：<span style="color: orangered;font-size: 25px">96.91</span></p>
+                    <br />
+                    <p style="margin-left: 10px">2019年7月排名：第1名 比上月<span style="color: orangered">上升2</span>名</p>
+                    <br />
+                    <p style="margin-left: 10px">奢侈品牌：1个</p>
+                    <br />
+                    <p style="margin-left: 10px">国际品牌：14个</p>
+                    <br />
+                    <p style="margin-left: 10px">国内品牌：17个</p>
+                    <br />
+                    <p style="margin-left: 10px">暂无亚洲品牌，地区品牌的合作信息</p>
+                </div>
+                <div id="adcharts" style="width: 500px;height: 500px;float: right;margin-right: 10px"></div>
+            </div>
+        </div>
+        <div id="fans" style="margin: 10px auto">
+            <span style="border-left:3px solid orangered;color: orangered;margin-left: 5px;padding-left: 5px;font-size: 19px">粉丝分析</span>
+            <div id="fancharts" style="width: 700px;height: 400px;margin: 10px auto"></div>
+            <br />
+        </div>
+    </div>
+    <script>
+        var adChart = echarts.init(document.getElementById('adcharts'));
+        var fanChart = echarts.init(document.getElementById('fancharts'));
+
+        var radarData4 = [82.80,91.82,93.20,97.45];
+        var radarData5 = [82.64,92.00,95.73,97.45];
+        var radarData6 = [79.76,92.45,94.26,95.01];
+        var radarData7 = [87.57,96.88,94.68,95.03];
+        var radarLink = {
+            normal:{
+                width: 1,
+                opacity: 0.5
+            }
+        };
+        var adoption = {
+            backgroundColor: '#161627',
+            title:{
+                text: "易烊千玺商业价值",
+                top: 'top',
+                left: 'center',
+                link: 'https://www.chinaindex.net/#/actor/detail/128068/0',
+                textStyle: {
+                    color: '#eee'
+                }
+            },
+            tooltip:{
+                trigger:'axis'
+            },
+            legend:{
+                data: ['4月','5月','6月','7月'],
+                top: 'bottom',
+                //selectedMode:'single',
+                itemGap:20,
+                textStyle: {
+                    color: '#fff',
+                    fontSize: 14
+                },
+            },
+            radar:{
+                indicator: [
+                    {name: '专业指数', max: 100},
+                    {name: '代言指数', max: 100},
+                    {name: '口碑指数', max: 100},
+                    {name: '热度指数', max: 100}
+                ],
+                radius:150,
+                shape: 'circle',
+                splitNumber: 5,
+                name: {
+                    textStyle: {
+                        color: 'rgb(238, 197, 102)'
+                    }
+                },
+                splitLine: {
+                    lineStyle: {
+                        color: [
+                            'rgba(238, 197, 102, 0.1)', 'rgba(238, 197, 102, 0.2)',
+                            'rgba(238, 197, 102, 0.4)', 'rgba(238, 197, 102, 0.6)',
+                            'rgba(238, 197, 102, 0.8)', 'rgba(238, 197, 102, 1)'
+                        ].reverse()
+                    }
+                },
+                splitArea: {
+                    show: false
+                },
+                axisLine: {
+                    lineStyle: {
+                        color: 'rgba(238, 197, 102, 0.5)'
+                    }
+                }
+            },
+            series:[
+                {
+                    type: 'radar',
+                    tooltip:{
+                        trigger: 'item'
+                    },
+                    lineStyle: radarLink,
+                    data: [
+                        {
+                            value: radarData7,
+                            name: '7月'
+                        }
+                    ],
+                    symbol: 'none',
+                    itemStyle: {
+                        normal: {
+                            color: '#6F599C'
+                        }
+                    },
+                    areaStyle: {
+                        normal: {
+                            opacity: 0.2
+                        }
+                    }
+                },
+                {
+                    type: 'radar',
+                    tooltip:{
+                        trigger: 'item'
+                    },
+                    lineStyle: radarLink,
+                    data: [
+                        {
+                            value: radarData6,
+                            name: '6月'
+                        }
+                    ],
+                    symbol: 'none',
+                    itemStyle: {
+                        normal: {
+                            color: '#B3E4A1'
+                        }
+                    },
+                    areaStyle: {
+                        normal: {
+                            opacity: 0.2
+                        }
+                    }
+                },
+                {
+                    type: 'radar',
+                    tooltip:{
+                        trigger: 'item'
+                    },
+                    lineStyle: radarLink,
+                    data: [
+                        {
+                            value: radarData5,
+                            name: '5月'
+                        }
+                    ],
+                    symbol: 'none',
+                    itemStyle: {
+                        normal: {
+                            color: 'rgb(238, 197, 102)'
+                        }
+                    },
+                    areaStyle: {
+                        normal: {
+                            opacity: 0.2
+                        }
+                    }
+                },
+                {
+                    type: 'radar',
+                    tooltip:{
+                        trigger: 'item'
+                    },
+                    lineStyle: radarLink,
+                    data: [
+                        {
+                            value: radarData4,
+                            name: '4月'
+                        }
+                    ],
+                    symbol: 'none',
+                    itemStyle: {
+                        normal: {
+                            color: '#F9713C'
+                        }
+                    },
+                    areaStyle: {
+                        normal: {
+                            opacity: 0.2
+                        }
+                    }
+                }
+            ]
+        };
+
+        fanChart.showLoading();
+        $.get('life-expectancy.json', function (data) {
+            fanChart.hideLoading();
+
+            var itemStyle = {
+                normal: {
+                    opacity: 0.8,
+                    shadowBlur: 10,
+                    shadowOffsetX: 0,
+                    shadowOffsetY: 0,
+                    shadowColor: 'rgba(0, 0, 0, 0.5)'
+                }
+            };
+
+            var sizeFunction = function (x) {
+                var y = Math.sqrt(x / 5e8) + 0.1;
+                return y * 80;
+            };
+            // Schema:
+            var schema = [
+                {name: 'Income', index: 0, text: '人均收入', unit: '美元'},
+                {name: 'LifeExpectancy', index: 1, text: '人均寿命', unit: '岁'},
+                {name: 'Population', index: 2, text: '总人口', unit: ''},
+                {name: 'Country', index: 3, text: '国家', unit: ''}
+            ];
+
+            option = {
+                baseOption: {
+                    timeline: {
+                        axisType: 'category',
+                        orient: 'vertical',
+                        autoPlay: true,
+                        inverse: true,
+                        playInterval: 1000,
+                        left: null,
+                        right: 0,
+                        top: 20,
+                        bottom: 20,
+                        width: 55,
+                        height: null,
+                        label: {
+                            normal: {
+                                textStyle: {
+                                    color: '#999'
+                                }
+                            },
+                            emphasis: {
+                                textStyle: {
+                                    color: '#fff'
+                                }
+                            }
+                        },
+                        symbol: 'none',
+                        lineStyle: {
+                            color: '#555'
+                        },
+                        checkpointStyle: {
+                            color: '#bbb',
+                            borderColor: '#777',
+                            borderWidth: 2
+                        },
+                        controlStyle: {
+                            showNextBtn: false,
+                            showPrevBtn: false,
+                            normal: {
+                                color: '#666',
+                                borderColor: '#666'
+                            },
+                            emphasis: {
+                                color: '#aaa',
+                                borderColor: '#aaa'
+                            }
+                        },
+                        data: []
+                    },
+                    backgroundColor: '#161627',
+                    title: [{
+                        text: data.timeline[0],
+                        textAlign: 'center',
+                        left: '63%',
+                        top: '55%',
+                        textStyle: {
+                            fontSize: 100,
+                            color: 'rgba(255, 255, 255, 0.7)'
+                        }
+                    }, {
+                        text: '各国千纸鹤年龄与支出关系变化',
+                        left: 'center',
+                        top: 10,
+                        textStyle: {
+                            color: '#aaa',
+                            fontWeight: 'normal',
+                            fontSize: 20
+                        }
+                    }],
+                    tooltip: {
+                        padding: 5,
+                        backgroundColor: '#222',
+                        borderColor: '#777',
+                        borderWidth: 1,
+                        formatter: function (obj) {
+                            var value = obj.value;
+                            return schema[3].text + '：' + value[3] + '<br>'
+                                + schema[1].text + '：' + value[1] + schema[1].unit + '<br>'
+                                + schema[0].text + '：' + value[0] + schema[0].unit + '<br>'
+                                + schema[2].text + '：' + value[2] + '<br>';
+                        }
+                    },
+                    grid: {
+                        top: 100,
+                        containLabel: true,
+                        left: 30,
+                        right: '110'
+                    },
+                    xAxis: {
+                        type: 'log',
+                        name: '支出',
+                        max: 100000,
+                        min: 300,
+                        nameGap: 25,
+                        nameLocation: 'middle',
+                        nameTextStyle: {
+                            fontSize: 18
+                        },
+                        splitLine: {
+                            show: false
+                        },
+                        axisLine: {
+                            lineStyle: {
+                                color: '#ccc'
+                            }
+                        },
+                        axisLabel: {
+                            formatter: '{value} $'
+                        }
+                    },
+                    yAxis: {
+                        type: 'value',
+                        name: '年龄',
+                        max: 100,
+                        nameTextStyle: {
+                            color: '#ccc',
+                            fontSize: 18
+                        },
+                        axisLine: {
+                            lineStyle: {
+                                color: '#ccc'
+                            }
+                        },
+                        splitLine: {
+                            show: false
+                        },
+                        axisLabel: {
+                            formatter: '{value} 岁'
+                        }
+                    },
+                    visualMap: [
+                        {
+                            show: false,
+                            dimension: 3,
+                            categories: data.counties,
+                            calculable: true,
+                            precision: 0.1,
+                            textGap: 30,
+                            textStyle: {
+                                color: '#ccc'
+                            },
+                            inRange: {
+                                color: (function () {
+                                    var colors = ['#bcd3bb', '#e88f70', '#edc1a5', '#9dc5c8', '#e1e8c8', '#7b7c68', '#e5b5b5', '#f0b489', '#928ea8', '#bda29a'];
+                                    return colors.concat(colors);
+                                })()
+                            }
+                        }
+                    ],
+                    series: [
+                        {
+                            type: 'scatter',
+                            itemStyle: itemStyle,
+                            data: data.series[0],
+                            symbolSize: function(val) {
+                                return sizeFunction(val[2]);
+                            }
+                        }
+                    ],
+                    animationDurationUpdate: 1000,
+                    animationEasingUpdate: 'quinticInOut'
+                },
+                options: []
+            };
+
+            for (var n = 0; n < data.timeline.length; n++) {
+                option.baseOption.timeline.data.push(data.timeline[n]);
+                option.options.push({
+                    title: {
+                        show: true,
+                        'text': data.timeline[n] + ''
+                    },
+                    series: {
+                        name: data.timeline[n],
+                        type: 'scatter',
+                        itemStyle: itemStyle,
+                        data: data.series[n],
+                        symbolSize: function(val) {
+                            return sizeFunction(val[2]);
+                        }
+                    }
+                });
+            }
+
+            fanChart.setOption(option);
+
+        });
+
+        adChart.setOption(adoption);
+    </script>
+</body>
+</html>

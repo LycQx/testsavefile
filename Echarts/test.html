@@ -1,0 +1,30 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>练习练习</title>
+        <script src="js/echarts.js"></script>
+        <script src="js/mytesttheme.js"></script>
+    </head>
+    
+    <body>
+    	<div id="main" style="width:900px;height:600px;"></div>
+    	<script type="text/javascript">
+			var myChart = echarts.init(document.getElementById('main'),'walden');
+			var option={
+				legend: {
+					data:['A','B','C']
+				},
+				series: {
+					type: 'pie',
+					data: [
+						{name: 'A', value: 1212},
+						{name: 'B', value: 2323},
+						{name: 'C', value: 1919}
+					]
+				}
+			};
+			myChart.setOption(option);
+        </script>
+    </body>
+</html>

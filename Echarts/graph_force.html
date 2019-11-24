@@ -1,0 +1,207 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>graph-force</title>
+        <script type="text/javascript" src="js/echarts.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/dataTool.min.js"></script>
+    </head>
+    
+    <body>
+    	<div  style="width:1300px;height:600px;" id="gx"></div>
+        <script type="text/javascript">
+			var myChart = echarts.init(document.getElementById('gx')); 
+			var webkitDep = {  //name:影响图形标签显示,value:影响选中后值得显示,category:所在类目的index,symbol:类目节点标记图形,symbolSize:10图形大小
+			"type": "force",  
+			"categories": [//关系网类别，可以写多组  
+				{  
+					"name": "人民日报",//关系网名称，"category": 0  
+					"keyword": {},  
+					"base": "人民日报"  
+				},  
+				{  
+					"name": "新华社",//关系网名称"category": 1  
+					"keyword": {},  
+					"base": "人民日报"  
+				}  
+			],  
+			"nodes": [//展示的节点  
+				{  
+					"name": "人民日报",//节点名称,第0个节点  
+					"value": 1,  
+					"category": 0//与关系网类别索引对应，此处只有一个关系网所以这里写0  
+				}, 
+				{  
+					"name": "新华社",//节点名称,第1个节点  
+					"value": 1,  
+					"category": 0//与关系网类别索引对应，此处只有一个关系网所以这里写0  
+				},   
+				{  
+					"name": "习近平",//节点名称  
+					"value": 1,  
+					"category": 0//与关系网类别索引对应，此处只有一个关系网所以这里写0  
+				},  
+				{  
+					"name": "中国",  
+					"value": 1,  
+					"category": 0  
+				},  
+				{  
+					"name": "特色",  
+					"value": 1,  
+					"category": 0  
+				},
+				{  
+					"name": "习近平",//节点名称  
+					"value": 1,  
+					"category": 1  
+				},  
+				{  
+					"name": "中国",  
+					"value": 1,  
+					"category": 1  
+				},  
+				{  
+					"name": "特色",  
+					"value": 1,  
+					"category": 1  
+				}  
+			],  
+			"links": [//节点之间连接  
+				{  
+					"source": 0,//起始节点，0表示第一个节点  
+					"target": 2 //目标节点，1表示与索引为1的节点进行连接  
+				},  
+				{  
+					"source": 0,  
+					"target": 3  
+				},
+				{  
+					"source": 0,  
+					"target": 4  
+				},
+				{  
+					"source": 1,  
+					"target": 5  
+				},
+				{  
+					"source": 1,  
+					"target": 6  
+				},
+				{  
+					"source": 1,  
+					"target": 7  
+				}  
+			]  
+		};  
+		  
+			option = {  
+				title: {//标题
+					text: "18家央媒高频词汇", //正标题
+					//link: "http://www.stepday.com", //正标题链接 点击可在新窗口中打开
+					top: 'bottom',//上下位置  
+					left: 'right',//左右位置
+					//subtext: "From:http://www.stepday.com", //副标题
+					//sublink: "http://www.stepday.com", //副标题链接
+					//正标题样式
+					textStyle: {
+						fontSize:24
+					},
+					//副标题样式
+					//subtextStyle: {
+						//fontSize:12,
+						//color:"red"
+					//}
+				},
+				backgroundColor: '#FFEFD5',//背景布的颜色
+				legend: {  //图表控件,即图例
+					show: true,
+					data: ['人民日报','新华社']//此处的数据必须和关系网类别中name相对应  
+				},  
+				series: [{  
+					type: 'graph', //关系图 
+					layout: 'force', //图的布局，类型为力导图，'circular' 采用环形布局 ，见示例 Les Miserables
+					legendHoverLink : true,//是否启用图例 hover(悬停) 时的联动高亮。
+                    hoverAnimation : true,//是否开启鼠标悬停节点的显示动画
+                    coordinateSystem : null,//坐标系可选
+                    xAxisIndex : 0, //x轴坐标 有多种坐标系轴坐标选项
+                    yAxisIndex : 0, //y轴坐标 
+					animation: false,  
+					label: { //=============图形上的文本标签 
+						normal: {  
+							show:true,  
+							position: 'right', //标签的位置。['50%', '50%'] [x,y]
+							textStyle : { //标签的字体样式
+                                color : '#CD69C9', //字体颜色
+                                fontStyle : 'normal',//文字字体的风格 'normal'标准 'italic'斜体 'oblique' 倾斜
+                                fontWeight : 'normal',//'normal'标准'bold'粗的'bolder'更粗的'lighter'更细的或100 | 200 | 300 | 400...
+                                fontFamily : 'sans-serif', //文字的字体系列
+                                fontSize : 15, //字体大小
+							}
+						},
+						emphasis : {//高亮状态
+
+                        }  
+					},  
+					draggable: true,  
+					data: webkitDep.nodes.map(function (node, idx) {  
+						node.id = idx;  
+						return node;  
+					}),  
+					categories: webkitDep.categories,  
+					force: {  //力引导图基本配置
+						//initLayout: ,//力引导的初始化布局，默认使用xy轴的标点
+						gravity : 0.03,//节点受到的向中心的引力因子。该值越大节点越往中心点靠拢。
+						edgeLength: 105,//连线的长度
+						repulsion: 100,  //子节点之间的间距  
+						layoutAnimation : true
+                    //因为力引导布局会在多次迭代后才会稳定，这个参数决定是否显示布局的迭代动画，在浏览器端节点数据较多（>100）的时候不建议关闭，布局过程会造成浏览器假死。  
+					},  
+					roam : true,//是否开启鼠标缩放和平移漫游。默认不开启。如果只想要开启缩放或者平移，可以设置成 'scale' 或者 'move'。设置成 true 为都开启
+                    nodeScaleRatio : 0.6,//鼠标漫游缩放时节点的相应缩放比例，当设为0时节点不随着鼠标的缩放而缩放
+                    draggable : true,//节点是否可拖拽，只在使用力引导布局的时候有用。
+                    focusNodeAdjacency : true,//是否在鼠标移到节点上的时候突出显示节点以及节点的边和邻接节点。
+                    symbol:'roundRect',//关系图节点标记的图形。ECharts 提供的标记类型包括 'circle'(圆形), 'rect'（矩形）, 'roundRect'（圆角矩形）, 'triangle'（三角形）, 'diamond'（菱形）, 'pin'（大头针）, 'arrow'（箭头）  也可以通过 'image://url' 设置为图片，其中 url 为图片的链接。'path:// 这种方式可以任意改变颜色并且抗锯齿
+                    
+					//symbolSize:10 ,//也可以用数组分开表示宽和高，例如 [20, 10] 如果需要每个数据的图形大小不一样，可以设置为如下格式的回调函数：(value: Array|number, params: Object) => number|Array
+                    //symbolRotate:,//关系图节点标记的旋转角度。注意在 markLine 中当 symbol 为 'arrow' 时会忽略 symbolRotate 强制设置为切线的角度。
+                    //symbolOffset:[0,0],//关系图节点标记相对于原本位置的偏移。[0, '50%']
+                    edgeSymbol : [ 'none', 'none' ],//边两端的标记类型，可以是一个数组分别指定两端，也可以是单个统一指定。默认不显示标记，常见的可以设置为箭头，如下：edgeSymbol: ['circle', 'arrow']
+                    edgeSymbolSize : 10,//边两端的标记大小，可以是一个数组分别指定两端，也可以是单个统一指定。
+					edges: webkitDep.links,
+					itemStyle : {//===============图形样式，有 normal 和 emphasis 两个状态。normal 是图形在默认状态下的样式；emphasis 是图形在高亮状态下的样式，比如在鼠标悬浮或者图例联动高亮时。
+                        normal : { //默认样式
+                            label : {
+                                show : true
+                            },
+                            borderType : 'solid', //图形描边类型，默认为实线，支持 'solid'（实线）, 'dashed'(虚线), 'dotted'（点线）。
+                            borderColor : 'rgba(255,215,0,0.4)', //设置图形边框为淡金色,透明度为0.4
+                            borderWidth : 2, //图形的描边线宽。为 0 时无描边。
+                            opacity : 1
+                        // 图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。默认0.5
+
+                        },
+                        emphasis : {//高亮状态
+
+                        }
+                    },
+                    lineStyle : { //==========关系边的公用线条样式。
+                        normal : {
+                            color : '#EE6AA7',
+                            width : '3',
+                            type : 'solid', //线的类型 'solid'（实线）'dashed'（虚线）'dotted'（点线）
+                            curveness : 0.3, //线条的曲线程度，从0到1
+                            opacity : 1
+                        // 图形透明度。支持从 0 到 1 的数字，为 0 时不绘制该图形。默认0.5
+                        },
+                        emphasis : {//高亮状态
+
+                        }
+                    }	  
+				}]  
+			};  
+			myChart.setOption(option);
+		</script>
+    </body>
+</html>

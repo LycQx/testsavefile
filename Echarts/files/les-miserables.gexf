@@ -1,0 +1,2095 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<gexf xmlns="http://www.gexf.net/1.2draft" version="1.2" xmlns:viz="http://www.gexf.net/1.2draft/viz" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.gexf.net/1.2draft http://www.gexf.net/1.2draft/gexf.xsd">
+  <meta lastmodifieddate="2014-01-30">
+    <creator>Gephi 0.8.1</creator>
+    <description></description>
+  </meta>
+//以上为gexf文件常规头部
+  <graph defaultedgetype="undirected" mode="static">//定义gexf图
+	//此处defaltedgetype属性定义边为无向边，如果为有向边，定义为"directed"
+    <attributes class="node" mode="static">
+      <attribute id="modularity_class" title="Modularity Class" type="integer"></attribute>
+    </attributes>
+    //自定义的attribute，可以更换为其它id和title，如果要使用模板代码基于该attribute进行分类，type应定义为integer
+	<nodes>//点
+      <node id="0" label="人民日报">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="15"></viz:size>//节点大小
+        <viz:position x="-266.82776" y="299.6904" z="0.0"></viz:position>//节点位置，可自动生成
+        <viz:color r="235" g="81" b="72"></viz:color>//节点颜色
+      </node>
+      <node id="1" label="发展">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-418.08344" y="446.8853" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="2" label="中国">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-212.76357" y="245.29176" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="3" label="习近平">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-242.82404" y="235.26283" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="4" label="新">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-379.30386" y="429.06424" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="5" label="工作">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-417.26337" y="406.03506" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="6" label="时代">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-332.6012" y="485.16974" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="7" label="建设">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-382.69568" y="475.09113" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="8" label="党">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-320.384" y="387.17325" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="9" label="特色">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-344.39832" y="451.16772" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="10" label="思想">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-250.82776" y="299.6904" z="0.0"></viz:position>//节点位置，可自动生成
+        <viz:color r="235" g="81" b="72"></viz:color>
+      </node>
+      <node id="11" label="改革">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-400.08344" y="446.8853" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="12" label="年">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-200.76357" y="245.29176" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="13" label="中">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-220.82404" y="235.26283" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="14" label="推进">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-350.30386" y="429.06424" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="15" label="创新">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-400.26337" y="406.03506" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="16" label="政治">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-300.6012" y="485.16974" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="17" label="推动">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-350.69568" y="475.09113" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="18" label="国家">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-300.384" y="387.17325" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="19" label="经济">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-320.39832" y="451.16772" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="20" label="制度">
+        <attvalues>
+          <attvalue for="modularity_class" value="0"></attvalue>
+        </attvalues>
+        <viz:size value="10"></viz:size>
+        <viz:position x="-320.384" y="287.17325" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="21" label="新华社">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="20"></viz:size>
+        <viz:position x="-380.39832" y="451.16772" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="22" label="历史">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-87.93029" y="-6.8120565" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="23" label="中国">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="24" label="新">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="25" label="发展">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="26" label="时代">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="27" label="特色">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="28" label="思想">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="29" label="习近平">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="30" label="党">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="31" label="理论">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="32" label="推进">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="33" label="建设">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="34" label="经济">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="35" label="工作">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="36" label="马克思主义">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="37" label="实践">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="38" label="政治">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="39" label="社会">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="40" label="中">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="41" label="十九">
+        <attvalues>
+          <attvalue for="modularity_class" value="1"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="42" label="求是">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="30.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="43" label="中国">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="44" label="发展">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.942856"></viz:size>
+        <viz:position x="-385.2226" y="-393.5572" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="45" label="新">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-516.55884" y="-393.98975" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="46" label="建设">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-464.79382" y="-493.57944" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="47" label="社会">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-515.1624" y="-456.9891" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="48" label="特色">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-408.12122" y="-464.5048" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="49" label="党">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-456.44113" y="-425.13303" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="50" label="国家">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-459.1107" y="-362.5133" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="51" label="习近平">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="10.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="52" label="经济">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="53" label="中">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="54" label="制度">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.942856"></viz:size>
+        <viz:position x="-385.2226" y="-393.5572" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="55" label="时代">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-516.55884" y="-393.98975" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="56" label="工作">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-464.79382" y="-493.57944" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="57" label="政治">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-515.1624" y="-456.9891" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="58" label="思想">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-408.12122" y="-464.5048" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="59" label="推进">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-456.44113" y="-425.13303" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="60" label="改革">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-459.1107" y="-362.5133" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="61" label="历史">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="10.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="62" label="创新">
+        <attvalues>
+          <attvalue for="modularity_class" value="2"></attvalue>
+        </attvalues>
+        <viz:size value="10.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="63" label="解放军报">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="30.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="64" label="新">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="65" label="中国">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="66" label="时代">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="67" label="发展">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="68" label="思想">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="69" label="特色">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="70" label="习近平">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="71" label="党">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="72" label="理论">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="73" label="经济">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="74" label="建设">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="25.942856"></viz:size>
+        <viz:position x="-385.2226" y="-393.5572" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="75" label="工作">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-516.55884" y="-393.98975" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="76" label="十九">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-464.79382" y="-493.57944" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="77" label="实践">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-515.1624" y="-456.9891" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="78" label="政治">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-408.12122" y="-464.5048" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="79" label="马克思主义">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-456.44113" y="-425.13303" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="80" label="推进">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-459.1107" y="-362.5133" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="81" label="年">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="10.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="82" label="创新">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="83" label="我国">
+        <attvalues>
+          <attvalue for="modularity_class" value="3"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="84" label="光明日报">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="35.942856"></viz:size>
+        <viz:position x="-385.2226" y="-393.5572" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="85" label="中国">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-516.55884" y="-393.98975" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="86" label="发展">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-464.79382" y="-493.57944" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="87" label="新">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-515.1624" y="-456.9891" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="88" label="工作">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-408.12122" y="-464.5048" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="89" label="时代">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-456.44113" y="-425.13303" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="90" label="建设">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-459.1107" y="-362.5133" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="91" label="习近平">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="20.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="92" label="党">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="15.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="93" label="思想">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="94" label="政治">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="95" label="特色">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="96" label="中">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="97" label="文化">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="98" label="创新">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="99" label="改革">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="100" label="年">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="101" label="社会">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="102" label="推进">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="103" label="总书记">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="104" label="领导">
+        <attvalues>
+          <attvalue for="modularity_class" value="4"></attvalue>
+        </attvalues>
+        <viz:size value="25.942856"></viz:size>
+        <viz:position x="-385.2226" y="-393.5572" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="105" label="经济日报">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-516.55884" y="-393.98975" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="106" label="新">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-464.79382" y="-493.57944" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="107" label="中国">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-515.1624" y="-456.9891" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="108" label="工作">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-408.12122" y="-464.5048" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="109" label="习近平">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-456.44113" y="-425.13303" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="110" label="建设">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-459.1107" y="-362.5133" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="111" label="时代">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="42.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="112" label="党">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="113" label="特色">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="114" label="改革">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="25.942856"></viz:size>
+        <viz:position x="-385.2226" y="-393.5572" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="115" label="思想">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-516.55884" y="-393.98975" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="116" label="年">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-464.79382" y="-493.57944" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="117" label="国家">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-515.1624" y="-456.9891" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="118" label="推进">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-408.12122" y="-464.5048" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="119" label="经济">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-456.44113" y="-425.13303" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="120" label="发展">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-459.1107" y="-362.5133" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="121" label="中">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="42.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="122" label="政治">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="42.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="123" label="推动">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="124" label="领导">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="125" label="创新">
+        <attvalues>
+          <attvalue for="modularity_class" value="5"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="126" label="中国日报">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="127" label="发展">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="128" label="中国">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="129" label="新">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="130" label="习近平">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="131" label="时代">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="132" label="建设">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="133" label="党">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="134" label="工作">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="25.942856"></viz:size>
+        <viz:position x="-385.2226" y="-393.5572" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="135" label="年">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-516.55884" y="-393.98975" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="136" label="特色">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-464.79382" y="-493.57944" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="137" label="中">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-515.1624" y="-456.9891" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="138" label="思想">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-408.12122" y="-464.5048" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="139" label="经济">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-456.44113" y="-425.13303" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="140" label="改革">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-459.1107" y="-362.5133" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="141" label="国家">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="42.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="142" label="创新">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="143" label="社会">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="144" label="政治">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="25.942856"></viz:size>
+        <viz:position x="-385.2226" y="-393.5572" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="145" label="文化">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-516.55884" y="-393.98975" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="146" label="推进">
+        <attvalues>
+          <attvalue for="modularity_class" value="6"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-464.79382" y="-493.57944" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="147" label="中央人民广播电台">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-515.1624" y="-456.9891" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="148" label="新">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-408.12122" y="-464.5048" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="149" label="工作">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-456.44113" y="-425.13303" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="150" label="发展">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-459.1107" y="-362.5133" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="151" label="中国">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="42.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="152" label="习近平">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="22.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="153" label="建设">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="154" label="时代">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="155" label="思想">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="156" label="年">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="157" label="特色">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="158" label="政治">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="159" label="推进">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="160" label="党">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="161" label="改革">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="162" label="推动">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="163" label="精神">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="164" label="中">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="25.942856"></viz:size>
+        <viz:position x="-385.2226" y="-393.5572" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="165" label="创新">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-516.55884" y="-393.98975" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="166" label="月">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-464.79382" y="-493.57944" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="167" label="经济">
+        <attvalues>
+          <attvalue for="modularity_class" value="7"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-515.1624" y="-456.9891" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="168" label="中央电视台">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="30.457146"></viz:size>
+        <viz:position x="-408.12122" y="-464.5048" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="169" label="新">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-456.44113" y="-425.13303" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="170" label="中国">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-459.1107" y="-362.5133" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="171" label="时代">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="22.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="172" label="十九">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="173" label="习近平">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="174" label="工作">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="25.942856"></viz:size>
+        <viz:position x="-385.2226" y="-393.5572" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="175" label="精神">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-516.55884" y="-393.98975" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="176" label="思想">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-464.79382" y="-493.57944" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="177" label="特色">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-515.1624" y="-456.9891" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="178" label="频道">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-408.12122" y="-464.5048" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="179" label="央视">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-456.44113" y="-425.13303" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="180" label="党">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="20.457146"></viz:size>
+        <viz:position x="-459.1107" y="-362.5133" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="181" label="节目">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="12.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="182" label="发展">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="22.4"></viz:size>
+        <viz:position x="-313.42786" y="-289.44803" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="183" label="创新">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="184" label="媒体">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="6.742859"></viz:size>
+        <viz:position x="-339.77908" y="-184.69139" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="185" label="学习">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-194.31313" y="178.55301" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="186" label="宣传">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-158.05168" y="201.99768" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+      <node id="187" label="传播">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-127.701546" y="242.55057" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+	  <node id="188" label="报道">
+        <attvalues>
+          <attvalue for="modularity_class" value="8"></attvalue>
+        </attvalues>
+        <viz:size value="4.0"></viz:size>
+        <viz:position x="-89.34107" y="234.56128" z="0.0"></viz:position>
+        <viz:color r="236" g="81" b="72"></viz:color>
+      </node>
+    </nodes>
+    <edges>//边
+      <edge id="0" source="1" target="0" weight="8.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="1" source="2" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="2" source="3" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="3" source="4" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="4" source="5" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="5" source="6" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="6" source="7" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="7" source="8" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="8" source="9" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="9" source="10" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="10" source="11" target="0">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="11" source="12" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="12" source="13" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="13" source="14" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="14" source="15" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="15" source="16" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="16" source="17" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="17" source="18" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="18" source="19" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="19" source="20" target="0">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="20" source="21" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="21" source="22" target="21"  weight="8.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="22" source="23" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="23" source="24" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="24" source="25" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="25" source="26" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="26" source="27" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="27" source="28" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="28" source="29" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="29" source="30" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="30" source="31" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="31" source="32" target="21">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="32" source="33" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="33" source="34" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="34" source="35" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="35" source="36" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="36" source="37" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="37" source="38" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="38" source="39" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="39" source="40" target="21">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="40" source="41" target="21">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="41" source="42" target="0">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="42" source="43" target="42" weight="8.0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="43" source="44" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="44" source="45" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="45" source="46" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="46" source="47" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="47" source="48" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="48" source="49" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="49" source="50" target="42">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="50" source="51" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="51" source="52" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="52" source="53" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="53" source="54" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="54" source="55" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="55" source="56" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="56" source="57" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="57" source="58" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="58" source="59" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="59" source="60" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="60" source="61" target="42">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="61" source="62" target="42">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="62" source="63" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="63" source="64" target="63" weight="8.0">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="64" source="65" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="65" source="66" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="66" source="67" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="67" source="68" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="68" source="69" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="69" source="70" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="70" source="71" target="63">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="71" source="72" target="63">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="72" source="73" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="73" source="74" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="74" source="75" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="75" source="76" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="76" source="77" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="77" source="78" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="78" source="79" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="79" source="80" target="63">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="80" source="81" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="81" source="82" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="82" source="83" target="63">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="83" source="84" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="84" source="85" target="84" weight="8.0">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="85" source="86" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="86" source="87" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="87" source="88" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="88" source="89" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="89" source="90" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="90" source="91" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="91" source="92" target="84">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="92" source="93" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="93" source="94" target="84">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="94" source="95" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="95" source="96" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="96" source="97" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="97" source="98" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="98" source="99" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="99" source="100" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="100" source="101" target="84">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="101" source="102" target="84">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="102" source="103" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="103" source="104" target="84">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="104" source="105" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="105" source="106" target="105" weight="8.0">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="106" source="107" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="107" source="108" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="108" source="109" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="109" source="110" target="105">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="110" source="111" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="111" source="112" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="112" source="113" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="113" source="114" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="114" source="115" target="105">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="115" source="116" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="116" source="117" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="117" source="118" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="118" source="119" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="119" source="120" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="120" source="121" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="121" source="122" target="105">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="122" source="123" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="123" source="124" target="105">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="124" source="125" target="105">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="125" source="126" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="126" source="127" target="126" weight="8.0">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="127" source="128" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="128" source="129" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="129" source="130" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="130" source="131" target="126">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="131" source="132" target="126">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="132" source="133" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="133" source="134" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="134" source="135" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="135" source="136" target="126">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="136" source="137" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="137" source="138" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="138" source="139" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="139" source="140" target="126">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="140" source="141" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="141" source="142" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="142" source="143" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="143" source="144" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="144" source="145" target="126">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="145" source="146" target="126">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="146" source="147" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="147" source="148" target="147" weight="8.0">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="148" source="149" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="149" source="150" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="150" source="151" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="151" source="152" target="147">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="152" source="153" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="153" source="154" target="147">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="154" source="155" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="155" source="156" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="156" source="157" target="147">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="157" source="158" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="158" source="159" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="159" source="160" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="160" source="161" target="147">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="161" source="162" target="147">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="162" source="163" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="163" source="164" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="164" source="165" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="165" source="166" target="147">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="166" source="167" target="147">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="167" source="168" target="0">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="168" source="169" target="168" weight="8.0">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="169" source="170" target="168">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="170" source="171" target="168">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="171" source="172" target="168">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="172" source="173" target="168">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="173" source="174" target="168">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="174" source="175" target="168">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="175" source="176" target="168">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="176" source="177" target="168">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="177" source="178" target="168">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="178" source="179" target="168">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="179" source="180" target="168">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="180" source="181" target="168">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="181" source="182" target="168">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="182" source="183" target="168">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="183" source="184" target="168">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="184" source="185" target="168">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="185" source="186" target="168">
+        <attvalues></attvalues>
+      </edge>
+      <edge id="186" source="187" target="168">
+        <attvalues></attvalues>
+      </edge>
+	  <edge id="187" source="188" target="168">
+        <attvalues></attvalues>
+      </edge>
+    </edges>
+  </graph>
+</gexf>
