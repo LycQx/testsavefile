@@ -1,0 +1,104 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+        <title>graph-force-one</title>
+        <script type="text/javascript" src="js/echarts.js"></script>
+        <script type="text/javascript" src="js/jquery.js"></script>
+        <script type="text/javascript" src="js/dataTool.min.js"></script>
+    </head>
+    
+    <body>
+    	<div  style="width:1300px;height:600px;" id="gx"></div>
+        <script type="text/javascript">
+			var myChart = echarts.init(document.getElementById('gx')); 
+			myChart.showLoading();
+			$.get('files/les-miserables.gexf', function (xml) {
+				myChart.hideLoading();
+			
+				var graph = echarts.dataTool.gexf.parse(xml);
+				var categories = [];
+				categories[0] = {
+						name: '人民日报'
+				};
+				categories[1] = {
+						name: '新华社'
+				};
+				categories[2] = {
+						name: '求是'
+				};
+				categories[3] = {
+						name: '解放军报'
+				};
+				categories[4] = {
+						name: '光明日报'
+				};
+				categories[5] = {
+						name: '经济日报'
+				};
+				categories[6] = {
+						name: '中国日报'
+				};
+				categories[7] = {
+						name: '中央人民广播电台'
+				};
+				categories[8] = {
+						name: '中央电视台'
+				}; 
+				//for (var i = 0; i < 9; i++) {//一共有多少类
+					//categories[i] = {
+						//name: '类目' + i
+					//};
+				//}
+				graph.nodes.forEach(function (node) {
+					node.itemStyle = null;
+					//node.symbolSize = 10;
+					node.value = ' ';
+					node.category = node.attributes.modularity_class;//此处修改分类依据，可改成任意integer类型的属性
+					// Use random x, y
+					node.x = node.y = null;
+					node.draggable = true;
+				});
+				option = {
+					title: {//标题
+						text: '9家央媒的高频词汇（第1组）', //此处修改图名称
+						subtext: 'Default layout',//此处修改布局名称
+						top: 'bottom',
+						left: 'right'
+					},
+					tooltip: {},//提示框
+					legend: [{//图例
+						// selectedMode: 'single',
+						data: categories.map(function (a) {
+							return a.name;
+						})
+					}],
+					animation: false,
+					series : [
+						{
+							//name: 'Les Miserables',
+							type: 'graph',
+							layout: 'force',//此处修改布局方法，none为随机，circular为环形
+							data: graph.nodes,
+							links: graph.links,
+							categories: categories,
+							roam: true,
+							label: {
+								normal: {
+									show:true,
+									position: 'right'
+								}
+							},
+							force: {
+								repulsion: 100
+							}
+						}
+					]
+				};
+			
+				myChart.setOption(option);
+			}, 'xml'); 
+			myChart.setOption(option);
+		</script>
+    </body>
+</html>
